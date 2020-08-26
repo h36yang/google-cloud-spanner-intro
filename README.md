@@ -1,4 +1,4 @@
-# google-cloud-spanner-intro
+# Getting Started with Cloud Spanner
 Learning notes from "Creating and Administering Google Cloud Spanner Instances" course
 
 ## What is Google Cloud Spanner
@@ -116,3 +116,8 @@ _Cloud Spanner uses interleaved parent-child tables to store records **together*
 * Reduce hotspotting
 * Do not create non-interleaved indexes on monotonically changing data
   * Fine to use interleaved index on such column
+
+# Deep Dives
+[Creating and Managing Tables in Cloud Spanner](Creating_Managing_Tables.md)
+
+[Integrating Cloud Spanner with Other Google Cloud Services](Integrating_Other_Services.md)
